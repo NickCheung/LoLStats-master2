@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10sp"
+    android:weightSum="1"
+    tools:context=".OverviewPage">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/test"
+        android:textSize="30sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="division"
+        android:textSize="20sp"
+        android:id="@+id/division"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.25">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="new text"
+            android:id="@+id/level"
+            android:textSize="15sp"
+            android:layout_marginTop="30sp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/wins"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30sp"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/losses"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/wins"
+            android:layout_toEndOf="@+id/wins"
+            android:layout_marginTop="30sp"
+            android:textSize="15sp"
+            android:gravity="right"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:text="New Text"
+            android:id="@+id/kills"
+            android:layout_below="@+id/level"
+            android:layout_toLeftOf="@+id/assists"
+            android:layout_toStartOf="@+id/assists"
+            android:layout_marginTop="10sp"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/assists"
+            android:layout_below="@+id/wins"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10sp"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:text="New Text"
+            android:id="@+id/deaths"
+            android:layout_below="@+id/losses"
+            android:layout_alignLeft="@+id/losses"
+            android:layout_alignStart="@+id/losses"
+            android:layout_marginTop="10sp"
+            android:textSize="15sp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/live"
+            android:id="@+id/liveMatch"
+            android:layout_below="@+id/kills"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30sp"
+            android:background="@color/darkYellow"
+            android:textColor="@color/white"
+            android:onClick="btnCurr"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ranked"
+            android:id="@+id/button"
+            android:layout_below="@+id/liveMatch"
+            android:layout_centerHorizontal="true"
+            android:background="@color/lightBlue"
+            android:textColor="@color/white"
+            android:layout_marginTop="15sp"
+            android:onClick="btnRanked"/>
+
+    </RelativeLayout>
+</LinearLayout>

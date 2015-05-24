@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">LoLStats</string>
+
+    <string name="welcome">Welcome</string>
+    <string name="action_settings">Settings</string>
+    <string name="username">LoL username:</string>
+    <string name="region">Choose a region:</string>
+    <string name="live">See current match info</string>
+    <string name="ranked">See detailed ranked stats</string>
+    <string name="sName">Enter summoner name...</string>
+    <string name="solo">Solo/Duo</string>
+    <string name="max">Maximum</string>
+    <string name="total">Total</string>
+    <string name="avg">Average</string>
+    <string name="KDA">Kills / Deaths / Assists</string>
+    <string name="prev">wins / losses / total</string>
+
+    <!-- ranked statistics page -->
+    <string name="rankeds">Ranked statistics</string>
+    <string name="totalGames">Total games played:</string>
+    <string name="gamesLost">Games lost:</string>
+    <string name="gamesWon">Games won:</string>
+
+    <string name="earnings">Earnings</string>
+    <string name="totalGold">Total gold earned:</string>
+    <string name="minionsKilled">Total minions killed:</string>
+    <string name="neutralMinions">Total neutral minions killed:</string>
+
+    <string name="combat">Combat stats</string>
+    <string name="kills">Kills:</string>
+    <string name="deaths">Deaths:</string>
+    <string name="assists">Assists:</string>
+    <string name="penta">Penta kills:</string>
+    <string name="quadra">Quadra kills:</string>
+    <string name="triple">Triple kills:</string>
+    <string name="doubleK">Double kills:</string>1
+    <!-- end of ranked statistics page -->
+</resources>

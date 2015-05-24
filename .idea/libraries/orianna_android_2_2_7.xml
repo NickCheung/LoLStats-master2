@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="orianna-android-2.2.7">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/orianna-android-2.2.7.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
